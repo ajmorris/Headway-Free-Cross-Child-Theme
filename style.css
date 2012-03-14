@@ -1,0 +1,129 @@
+/*  
+Theme Name: Headway Free Cross Child Theme
+Theme URI: http://headwaythemes.com
+Description: Simple blog theme.
+Version: 0.1
+Author: Headway Staff
+Author URI: http://headwaythemes.com
+Template: headway
+*/
+
+/*
+Dark Blue - #1F2C34
+Light Blue - #6297B3
+Tan - #C2B7A6
+Dk Tan - #494133
+Black - #12110D
+*/
+
+body { 
+	background: #000 url('images/crissXcross.png');
+	font-family: "Helvetica Neue", Helvetica, Geneva, sans-serif !important;
+}
+
+a { font-family: "Helvetica Neue", Helvetica, Geneva, sans-serif; color: #1F2C34; }
+span.banner a {	font-size: 28px; color: #6297B3; }
+h1.tagline { font-size: 22px; }
+span.tagline { font-size: 22px; }
+h1 { font-size: 28px; }
+body.single h1 { color: #6297B3; }
+h2 { font-size: 26px; color: #6297B3; }
+h3 { font-size: 24px; }
+h4 { font-size: 22px; }
+
+.wrapper { 
+	background: #fff url('images/goovepaper.png');
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+}
+
+.entry-meta { font-size: 12px; color: #1F2C34; height: 30px;
+}
+.entry-comments { background: url('images/comment.png') no-repeat top left; padding-left: 20px; }
+.entry-date { background: url('images/calendar.png') no-repeat top left; padding-left: 15px; }
+.post {	border-bottom: 1px solid #efefef; }
+
+.block-type-content a.post-thumbnail-left { float: right; clear: both; }
+
+.block-type-content .post-thumbnail { border: 1px solid #b9ecfe; }
+
+.entry-content p { font-size: 16px; color: #12110D; }
+
+a.more-link {
+	color: #6297B3;
+	text-decoration: none;
+	background: #1F2C34;
+	border: 1px solid #12110D;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 20px;
+	clear: both;
+	float: right;
+	padding: 8px;
+}
+
+.nav-previous a, .nav-next a {
+	color:  #6297B3;
+	background: #efefef;
+	border: 1px solid #e0e0e0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;	
+}
+
+.entry-utility-below { clear:  both; }
+
+.block {
+	padding: 10px;
+	border: 1px solid #efefef;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #fdfdfd;
+}
+
+.block-type-content p { line-height: 130%; }
+.block-type-content a { color: #6297B3; }
+
+.block-type-navigation { background: #1F2C34; }
+
+.block-type-navigation a { color: #C2B7A6; }
+
+ul.sub-menu {
+	background: #fff;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+}
+
+.block-type-footer { font-size: 12px; }
+
+.block-type-widget-area { background: transparent; border: hidden;	padding: 0px; }
+
+.widget {
+	background: #6297B3;
+	border: 1px solid #494133;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.widget a {	color: #1F2C34; }
+
+.widget_search { padding: 2px !important; background: transparent; border: 0px; }
+
+.widget ul li, .widget ul li ul { list-style: none; }
+
+.block-type-widget-area li.widget ul { padding: 0px; line-height: 20px; font-size: 13px; }
+
+ul.widget-area { list-style: none; }
+	li.widget ul { list-style: none; }
+	
+.block-type-widget-area .horizontal-sidebar li.widget {	margin: 0 10px 0 10px; }
+
+.block-type-footer { background: #1F2C34; color: #6297B3; }
+
+.block-type-footer a { color: #6297B3; }
